@@ -15,24 +15,44 @@
 | Valutazione | 2 ore | Applicazione k-NN a nuovo dataset |  |
 | Come l'IA influenza l'economia | 4 ore | Approfondimento di marketing e economia aziendale | Docente di Economia Aziendale e Marketing|
 
+## Materiale 
+
+IAspotify/
+
+├── README.md
+
+└── esercizio_guidato/
+    
+    └── Esercitazione.tex
+    
+    └── Esercitazione.pdf
+    
+└── notebook/
+    
+    └── knn_datasetspotify_studente.ipynb
+    
+    └── knn_datasetspotify_docente.ipynb
+
+
+Sono disponibili i notebook python sia per gli studenti da compilare in laboratorio durante l'esercitazione, knn_datasetspotify_studente.ipynb, sia per il docente con commenti e codice già compilato, knn_datasetspotify_docente.ipynb.
+
 
 ## Metodologia
 
 Si alternamento parti di lezione più teoriche ad applicazioni.
 
 ### Introduzione IA
-  1. Dataset A per teachable machine  
-  Prima dell’inizio dell’UdA si forniscono agli studenti dei cartoncini di due colori **A** e **B**. Sul cartoncino di colore A ognuno deve scrivere il numero **1** con un pennarello di colore **rosso** mentre sul B il **2** con un pennarello di colore **blu.**  
-  Il docente crea un dataset per la predizione in modo anche da “ingannare l’algoritmo” incrociando i colori (2 rosso sul cartoncino A, 1 blu su cartoncino B)  
-  2. Dataset B per teachable machine  
-  Si chiede agli studenti di rappresentare il numero 1 e due su sfondi diversi, con grafie e colori diverse  
+  1. **Presentazione generale** su IA e prima di parlare nello specifico di ML, apprendimento supervisionato e introduzione a k-NN.  
+  2. **Valutiamo l'IA giocando**
+        - Dataset A per teachable machine  
+          Prima dell’inizio dell’UdA si forniscono agli studenti dei cartoncini di due colori **A** e **B**. Sul cartoncino di colore A ognuno deve scrivere il numero **1** con un pennarello di colore **rosso** mentre sul B il **2** con un pennarello di colore **blu.**  
+          Il docente crea un dataset per la predizione in modo anche da “ingannare l’algoritmo” incrociando i colori (2 rosso sul cartoncino A, 1 blu su cartoncino B)  
+        - Dataset B per teachable machine  
+          Si chiede agli studenti di rappresentare il numero 1 e due su sfondi diversi, con grafie e colori diverse  
     
-  Entrambi i dataset vengono usati per allenare due diversi modelli di teachable machine e valutare l’importanza del dato  
+  Entrambi i dataset vengono usati per allenare due diversi modelli di teachable machine e valutare l’importanza del dato tramite la matrice di confusione.
     
-  Questa attività pratica viene inserita dopo la presentazione generale su IA e prima di parlare nello specifico di ML e apprendimento supervisionato e introduzione a k-NN.  
-    
-    
-### Il modello k-NN (4 ore)
+### Il modello k-NN
 
 Gli esercizi vengono svolti a coppie  
 1. Esercizio (carta e penna)  
@@ -60,7 +80,7 @@ Si chiede agli studenti di far variare k e osservare come varia la confusion mat
 
     - Plot distanza e vediamo il caso particolare (loudness, tempo)
     
-    - (Togliamo:Se non viene fuori da nessuno,  facciamo vedere loudness e danceability, plot distanze, osservare che non hanno la stessa scale: questione della visualizzazione con due scale diverse e questione del fatto che il modello nel calcolo della distanza è come se desse un peso maggiore ad una delle due features.)
+    - Plot loudness e danceability, osservare che non hanno la stessa scale: questione della visualizzazione con due scale diverse e questione del fatto che il modello nel calcolo della distanza è come se desse un peso maggiore ad una delle due features.
     
     - Aggiunta di features
     
