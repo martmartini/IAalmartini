@@ -17,22 +17,16 @@
 
 ## Materiale 
 
+ ``` 
 IAspotify/
-
 ├── README.md
-
-└── esercizio_guidato/
-    
-    └── Esercitazione.tex
-    
-    └── Esercitazione.pdf
-    
+├── esercizio_guidato/
+│   ├── Esercitazione.tex
+│   └── Esercitazione.pdf
 └── notebook/
-    
-    └── knn_datasetspotify_studente.ipynb
-    
+    ├── knn_datasetspotify_studente.ipynb
     └── knn_datasetspotify_docente.ipynb
-
+``` 
 
 Sono disponibili i notebook python sia per gli studenti da compilare in laboratorio durante l'esercitazione, knn_datasetspotify_studente.ipynb, sia per il docente con commenti e codice già compilato, knn_datasetspotify_docente.ipynb.
 
@@ -85,3 +79,4 @@ Si chiede agli studenti di far variare k e osservare come varia la confusion mat
     - Aggiunta di features
     
     - RandomForest
+    
