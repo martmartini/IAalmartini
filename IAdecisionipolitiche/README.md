@@ -6,6 +6,9 @@
 
 Riusciamo a trovare qualcosa di più raffinato che preveda quando bloccare il traffico? 
 
+Per maggiori informazioni sull'uda https://docs.google.com/presentation/d/1H0LrYUagAB86FcGzhz8CWWmkCZETiphy7LNqMYE32x0/edit?usp=sharing
+
+
 ## Plannning
 
 |  | Tempo | Descrizione | Docenti coinvolti |
@@ -24,6 +27,15 @@ Riusciamo a trovare qualcosa di più raffinato che preveda quando bloccare il tr
  ``` 
 Nella cartella data sono presenti i file per scaricare e elaborare i dati dai siti di APPA e delle stazioni meteo.
 Nella cartella notebook i file utilizzati in classe con gli studente e i file completi per il docente.
+
+Per poter utilizzare i notebook bisogna assicurarsi di aver creato una [scorciatoia](https://support.google.com/drive/answer/9700156?hl=it&co=GENIE.Platform%3DDesktop) della [cartella condivisa](https://drive.google.com/drive/folders/1v0VfmrVC554ckEkdob7iDmkchgoF_60k?usp=sharing) sul tuo drive.
+
+Esegui i primi blocchi di codice dando il consenso a Google. 
+Qualora ci siano errori di esecuzione, assicurati di trovare in MyDrive la cartella **data**.
+
+``` 
+ls /content/drive/MyDrive/
+``` 
 
 ## Metodologia
 

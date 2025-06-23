@@ -17,6 +17,8 @@
 
 ## Materiale 
 
+Per l'applicazione con teachable machine: [presentazione e modelli utilizzati](https://drive.google.com/drive/folders/1zqDHzjTGOUgvnsyE8NpG-keoh27igcDb?usp=drive_link)
+
  ``` 
 IAspotify/
 ├── README.md
