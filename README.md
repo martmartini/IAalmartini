@@ -1,7 +1,10 @@
-# IA al Martini
+# IA a scuola
 Laboratori didattici in python per scoprire come usare l'IA e comprenderne le diverse applicazioni:
  1. https://github.com/martmartini/IAalmartini/tree/develop/IAspotify
  2. https://github.com/martmartini/IAalmartini/tree/develop/IAdecisionipolitiche
+
+**Scopo**: Raccogliere e condividere altri laboratori per portare l'IA a scuola. Siete tutti invitati a collaborare a questa reaccolta aggiungendo i vostri notebook e le vostre idee.
+
  ``` 
 repo-root/
 │
