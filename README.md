@@ -1,5 +1,5 @@
 # IA a scuola
-Laboratori didattici in python per scoprire come usare l'IA e comprenderne le diverse applicazioni, prova:
+Laboratori didattici in python per scoprire come usare l'IA e comprenderne le diverse applicazioni:
  1. https://github.com/martmartini/IAalmartini/tree/develop/IAspotify
  2. https://github.com/martmartini/IAalmartini/tree/develop/IAdecisionipolitiche
 
