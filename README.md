@@ -20,7 +20,7 @@ repo-root/
 
 # Contributi e ringraziamenti
 
-Le uda e i notebook sono stati sviluppate di un progetto biennale finanziato da un bando CARITRO in collaborazione con Istituto Artigianelli e Fondazione Bruno Kessler e 
+Le uda e i notebook sono stati sviluppati in un progetto biennale finanziato da un bando CARITRO in collaborazione con Istituto Artigianelli e Fondazione Bruno Kessler e 
 presentate durente il workshop "Intelligenza Artificiale al Martini - Materiali didattici in azione"  del 24 maggio 2025.
 
 Sono state sviluppate e portate in classe una decina di unità didattiche che hanno permesso agli studenti
