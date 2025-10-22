@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.27)  22 JUL 2025 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.6.27)  22 OCT 2025 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1247,7 +1247,7 @@ LaTeX Font Info:    Trying to load font information for T1+fav on input line 30
  (c:/texlive/2023/texmf-dist/tex/latex/arev/t1fav.fd
 File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
 )
-No file Esercitazione.aux.
+(./Esercitazione.aux)
 \openout1 = `Esercitazione.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -1267,6 +1267,7 @@ LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 30.
 LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 3
 0.
+
 (c:/texlive/2023/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
@@ -1440,13 +1441,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
 {c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/
 texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dv
-ips/arev/arevoml.enc}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/arev/arevot1.e
-nc}]
+ips/arev/arevoml.enc}]
 Overfull \hbox (21.17488pt too wide) in paragraph at lines 129--144
 [][] 
  []
 
-[2]
+[2{c:/texlive/2023/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}]
 Overfull \hbox (11.84094pt too wide) in paragraph at lines 193--199
 []\T1/fav/m/n/10 Come cam-bia la ma-tri-ce di con-fu-sio-ne? E l'ac-cu-ra-tez-z
 a? [] 
@@ -1454,38 +1454,29 @@ a? []
 
 [3]
 This exam contains 3 questions with 9 parts, 0 subparts, and 0 subsubparts.
-
-Class exam Warning: Point totals have changed. Rerun to get point totals right.
-
-
 (./Esercitazione.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-16>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 35393 strings out of 475723
- 874894 string characters out of 5785846
+ 35388 strings out of 475723
+ 874891 string characters out of 5785846
  1893763 words of memory out of 5000000
- 55623 multiletter control sequences out of 15000+600000
- 568646 words of font info for 138 fonts, out of 8000000 for 9000
+ 55624 multiletter control sequences out of 15000+600000
+ 566745 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,103p,730b,1907s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/arev/ArevSans-Bold.pfb><c:/tex
 live/2023/texmf-dist/fonts/type1/public/arev/ArevSans-Oblique.pfb><c:/texlive/2
 023/texmf-dist/fonts/type1/public/arev/ArevSans-Roman.pfb><c:/texlive/2023/texm
-f-dist/fonts/type1/public/eurosym/feymr10.pfb><c:/texlive/2023/texmf-dist/fonts
-/type1/public/mathdesign/mdbch/md-chb7t.pfb><c:/texlive/2023/texmf-dist/fonts/t
-ype1/public/mathdesign/mdbch/md-chb7y.pfb>
-Output written on Esercitazione.pdf (3 pages, 64169 bytes).
+f-dist/fonts/type1/public/mathdesign/mdbch/md-chb7t.pfb><c:/texlive/2023/texmf-
+dist/fonts/type1/public/mathdesign/mdbch/md-chb7y.pfb>
+Output written on Esercitazione.pdf (3 pages, 55677 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

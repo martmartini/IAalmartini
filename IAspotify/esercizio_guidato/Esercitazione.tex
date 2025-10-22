@@ -42,7 +42,7 @@ Si ha a disposizione il seguente \textbf{dataset di training} con riportati i da
 \begin{small}
 \begin{tabular}{|c|c|c|}
 \hline
-Danceability & Energy  & Label\\ \hline
+Danceability & Acousticness  & Label\\ \hline
 1 & 5 & Like \\
 2 & 8 & Like\\
 4 & 6 &  Like\\
@@ -58,15 +58,15 @@ Danceability & Energy  & Label\\ \hline
 \end{tabular}
 \end{small}
 
-La prima \textit{feature} (colonna) rappresenta la danceability di una canzone, la seconda l'energy. Le prime due colonne costituiscono la mia matrice $X_{train}$.
-Alll'utente della tua piattaforme solo alcune canzoni piacciono. L'informazione è riportata nella terza colonna, \textit{label}. Questa colonna è il vettore $y_{train}$ che voglio provare a predirre in base ai dati della matrice $X_{train}$.
+La prima \textit{feature} (colonna) rappresenta la danceability di una canzone, la seconda l'acousticness. Le prime due colonne costituiscono la mia matrice $X_{train}$.
+Alll'utente della tua piattaforma solo alcune canzoni piacciono. L'informazione è riportata nella terza colonna, \textit{label}. Questa colonna è il vettore $y_{train}$ che voglio provare a predirre in base ai dati della matrice $X_{train}$.
  
 Si ha poi a disposizione un secondo dataset su cui testare il modello, \textbf{dataset di test}.  \\
 
 \begin{small}
 \begin{tabular}{|c|c|c|}
 \hline
-Superficie $(\cdot 100 m^2)$ &Prezzo $(\cdot 10^5$ \euro) & Label\\ \hline
+Danceability & Acousticness  & Label\\ \hline
 5 & 8 & Don't like \\
 7 & 4 &  Like\\
 10 & 4 &  Don't like\\
@@ -99,7 +99,7 @@ Consideriamo nel \textbf{dataset di training} le due \textit{feature} come le co
     %xtick={-1,1,2,3,4},
     %ytick={-1,1,2,3,4,5},
     xlabel={Danceability},
-    ylabel={Energy}] 
+    ylabel={Acousticness}] 
     \node[label={[yshift=-2ex, xshift=3ex]180:{$A_1 $}},circle,fill,inner sep=2.5pt] at (axis cs: 1,5) {};
     \node[label={[yshift=-2ex, xshift=3ex]180:{$A_2 $}},circle,fill,inner sep=2.5pt] at (axis cs: 2,8) {};
     \node[label={[yshift=-2ex, xshift=3ex]180:{$A_3 $}},circle,fill,inner sep=2.5pt] at (axis cs: 4,6) {};
@@ -120,9 +120,9 @@ Consideriamo nel \textbf{dataset di training} le due \textit{feature} come le co
 Classifica i seguenti punti $P_1(5;8),\, P_2(7,4), P_3(10,4), P_4(10,8), P_5(3,7)$ considerando $k=3$.
 
 \begin{parts}
-\part Come si calcola la distanza tra due punti non allineati?\\[0.3cm]
+\part Come si calcola la distanza tra due punti non allineati orizzontalmente o verticalmente?\\[0.3cm]
 \makebox[0.7\textwidth]{\dotfill}
-\part E nel caso di punti sono allineati orizzontalmente o verticalmente?\\[0.3cm]
+\part E nel caso di punti allineati orizzontalmente o verticalmente?\\[0.3cm]
 \makebox[0.7\textwidth]{\dotfill}
 \part Riporta le distanze nella seguente tabella
 
